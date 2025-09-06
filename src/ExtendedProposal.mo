@@ -1,14 +1,14 @@
-import Time "mo:core/Time";
-import Result "mo:core/Result";
-import Principal "mo:core/Principal";
-import Map "mo:core/Map";
-import Option "mo:core/Option";
-import Iter "mo:core/Iter";
-import List "mo:core/List";
-import Float "mo:core/Float";
-import Int "mo:core/Int";
-import Order "mo:core/Order";
-import BTree "mo:stableheapbtreemap/BTree";
+import Time "mo:core@1/Time";
+import Result "mo:core@1/Result";
+import Principal "mo:core@1/Principal";
+import Map "mo:core@1/Map";
+import Option "mo:core@1/Option";
+import Iter "mo:core@1/Iter";
+import List "mo:core@1/List";
+import Float "mo:core@1/Float";
+import Int "mo:core@1/Int";
+import Order "mo:core@1/Order";
+import BTree "mo:stableheapbtreemap@1/BTree";
 
 module {
 
@@ -362,7 +362,7 @@ module {
                 case (#dynamic(_)) {
 
                   if (hasEnded) {
-                    let winningChoice = List.get(pluralityChoices.choices, 0);
+                    let winningChoice = List.at(pluralityChoices.choices, 0);
 
                     return #determined(?winningChoice);
                   } else {
@@ -370,7 +370,7 @@ module {
                   };
                 };
                 case (#snapshot(_)) {
-                  let winningChoice = List.get(pluralityChoices.choices, 0);
+                  let winningChoice = List.at(pluralityChoices.choices, 0);
                   return #determined(?winningChoice);
                 };
               };

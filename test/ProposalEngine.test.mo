@@ -1,9 +1,9 @@
 import { test } "mo:test/async";
-import Result "mo:core/Result";
-import Principal "mo:core/Principal";
+import Result "mo:core@1/Result";
+import Principal "mo:core@1/Principal";
 import ProposalEngine "../src/ProposalEngine";
-import Runtime "mo:core/Runtime";
-import BTree "mo:stableheapbtreemap/BTree";
+import Runtime "mo:core@1/Runtime";
+import BTree "mo:stableheapbtreemap@1/BTree";
 
 await test(
   "50/50 reject",

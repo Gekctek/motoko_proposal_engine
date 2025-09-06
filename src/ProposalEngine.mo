@@ -1,5 +1,5 @@
-import Result "mo:core/Result";
-import Bool "mo:core/Bool";
+import Result "mo:core@1/Result";
+import Bool "mo:core@1/Bool";
 import ExtendedProposalEngine "ExtendedProposalEngine";
 import Proposal "Proposal";
 

@@ -1,11 +1,11 @@
 import { test; suite } "mo:test/async";
-import Principal "mo:core/Principal";
-import Debug "mo:core/Debug";
-import Result "mo:core/Result";
-import Array "mo:core/Array";
+import Principal "mo:core@1/Principal";
+import Debug "mo:core@1/Debug";
+import Result "mo:core@1/Result";
+import Array "mo:core@1/Array";
 import ProposalEngine "../src/ProposalEngine";
-import Runtime "mo:core/Runtime";
-import BTree "mo:stableheapbtreemap/BTree";
+import Runtime "mo:core@1/Runtime";
+import BTree "mo:stableheapbtreemap@1/BTree";
 
 // This test suite demonstrates the real-world use case of proof-on-demand
 // voting where users prove their ETH chain balances to participate

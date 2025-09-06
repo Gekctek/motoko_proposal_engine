@@ -1,17 +1,17 @@
-import Principal "mo:core/Principal";
-import Debug "mo:core/Debug";
-import Nat "mo:core/Nat";
-import Iter "mo:core/Iter";
-import Map "mo:core/Map";
-import Time "mo:core/Time";
-import Timer "mo:core/Timer";
-import Int "mo:core/Int";
-import Error "mo:core/Error";
-import Order "mo:core/Order";
-import Result "mo:core/Result";
-import Runtime "mo:core/Runtime";
+import Principal "mo:core@1/Principal";
+import Debug "mo:core@1/Debug";
+import Nat "mo:core@1/Nat";
+import Iter "mo:core@1/Iter";
+import Map "mo:core@1/Map";
+import Time "mo:core@1/Time";
+import Timer "mo:core@1/Timer";
+import Int "mo:core@1/Int";
+import Error "mo:core@1/Error";
+import Order "mo:core@1/Order";
+import Result "mo:core@1/Result";
+import Runtime "mo:core@1/Runtime";
 import ExtendedProposal "ExtendedProposal";
-import BTree "mo:stableheapbtreemap/BTree";
+import BTree "mo:stableheapbtreemap@1/BTree";
 
 module {
 

@@ -1,7 +1,7 @@
-import Result "mo:core/Result";
-import Principal "mo:core/Principal";
-import Bool "mo:core/Bool";
-import Time "mo:core/Time";
+import Result "mo:core@1/Result";
+import Principal "mo:core@1/Principal";
+import Bool "mo:core@1/Bool";
+import Time "mo:core@1/Time";
 import ExtendedProposal "ExtendedProposal";
 
 module {

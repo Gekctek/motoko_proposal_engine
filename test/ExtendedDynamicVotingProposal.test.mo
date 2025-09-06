@@ -1,12 +1,12 @@
 import { test; suite } "mo:test/async";
-import Principal "mo:core/Principal";
-import Debug "mo:core/Debug";
-import Result "mo:core/Result";
-import Nat "mo:core/Nat";
+import Principal "mo:core@1/Principal";
+import Debug "mo:core@1/Debug";
+import Result "mo:core@1/Result";
+import Nat "mo:core@1/Nat";
 import ExtendedProposalEngine "../src/ExtendedProposalEngine";
-import BTree "mo:stableheapbtreemap/BTree";
-import Order "mo:core/Order";
-import Runtime "mo:core/Runtime";
+import BTree "mo:stableheapbtreemap@1/BTree";
+import Order "mo:core@1/Order";
+import Runtime "mo:core@1/Runtime";
 
 await suite(
   "ExtendedProposalEngine Real-time Tests",

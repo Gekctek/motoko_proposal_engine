@@ -1,10 +1,10 @@
 import { test } "mo:test/async";
-import Result "mo:core/Result";
-import Principal "mo:core/Principal";
-import Nat "mo:core/Nat";
+import Result "mo:core@1/Result";
+import Principal "mo:core@1/Principal";
+import Nat "mo:core@1/Nat";
 import ExtendedProposalEngine "../src/ExtendedProposalEngine";
-import Runtime "mo:core/Runtime";
-import BTree "mo:stableheapbtreemap/BTree";
+import Runtime "mo:core@1/Runtime";
+import BTree "mo:stableheapbtreemap@1/BTree";
 
 await test(
   "33/33/33 no consensus",
